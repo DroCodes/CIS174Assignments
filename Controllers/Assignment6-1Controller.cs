@@ -13,8 +13,6 @@ namespace CIS174AssignmentApp.Controllers
             students.Add(new StudentModel { FirstName = "Alice", LastName = "Williams", Grade = "A" });
             students.Add(new StudentModel { FirstName = "Ryan", LastName = "Maddison", Grade = "C" });
 
-            ViewBag.userAccess = accessLevel;
-
             return View(students);
         }
     }
